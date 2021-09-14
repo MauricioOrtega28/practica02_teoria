@@ -18,23 +18,23 @@ namespace practica02_teoria.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Create()
+        public IActionResult contacto()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult Create()
-        { 
-            return RedirectToAction("FormularioConfirmacion");
+        public IActionResult contacto()
+        {
+            return RedirectToAction("ContactoConfirmacion");
         }
 
-        public IActionResult FormularioConfirmacion(){
+        public IActionResult ContactoConfirmacion(){
+            return View();
+        }
+
+        public IActionResult Index()
+        {
             return View();
         }
 
