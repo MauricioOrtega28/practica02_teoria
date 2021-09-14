@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\practica02_teoria\\practica02_teoria.csproj": {}
+    "C:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\practica02_teoria\\practica02_teoria.csproj": {}
   },
   "projects": {
-    "c:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\practica02_teoria\\practica02_teoria.csproj": {
+    "C:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\practica02_teoria\\practica02_teoria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\practica02_teoria\\practica02_teoria.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\practica02_teoria\\practica02_teoria.csproj",
         "projectName": "practica02_teoria",
-        "projectPath": "c:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\practica02_teoria\\practica02_teoria.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\practica02_teoria\\practica02_teoria.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\practica02_teoria\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\practica02_teoria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -31,10 +31,10 @@ namespace practica02_teoria.Controllers
         [HttpPost]
         public IActionResult Create()
         { 
-            return RedirectToAction("CreateConfirmacion");
+            return RedirectToAction("FormularioConfirmacion");
         }
 
-        public IActionResult CreateConfirmacion(){
+        public IActionResult FormularioConfirmacion(){
             return View();
         }
 
