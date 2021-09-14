@@ -23,6 +23,21 @@ namespace practica02_teoria.Controllers
             return View();
         }
 
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create()
+        { 
+            return RedirectToAction("CreateConfirmacion");
+        }
+
+        public IActionResult CreateConfirmacion(){
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

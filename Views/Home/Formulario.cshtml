@@ -1,0 +1,58 @@
+
+@{
+    ViewData["Title"] = "Contacto";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <h1 class="display-4">Formulario de Adopcion</h1>
+    
+    <form asp-controller="Home" asp-action="Create">
+        
+        <label asp-for="Nombres" class="form-label"></label>
+        <input asp-for="Nombres" class="form-control" />
+
+        <label asp-for="ApellidoPaterno" class="control-label"></label>
+        <input asp-for="ApellidoPaterno" class="form-control"/>
+
+        <label asp-for="ApellidoMaterno" class="control-label"></label>
+        <input asp-for="ApellidoMaterno" class="form-control"/>
+
+        <label asp-for="Tipo" class="control-label"></label>
+
+        Perro
+        <input asp-for="Tipo" class="form-control" type="radio"value="P"/>
+        Gato
+        <input asp-for="Tipo" class="form-control" type="radio"value="G"/>
+        
+
+        <label asp-for="Descripcion" class="control-label"></label>
+        <input asp-for="Descripcion" class="form-control"/>
+
+        <label asp-for="Telefono" class="control-label"></label>
+        <input asp-for="Telefono" class="form-control"/>
+
+        <div>
+            <select name="Distrito" class="form-select" aria-label="Default select example">
+                <option selected disabled>Seleccione distrito</option>
+                <option value="A">Distrito A</option>
+                <option value="B">Distrito B</option>
+                <option value="C">Distrito C</option>
+                <option value="D">Distrito D</option>
+            </select>    
+        </div>
+
+        <label asp-for="Direccion" class="control-label"></label>
+        <input asp-for="Direccion" class="form-control"/>
+
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Registrar</button> 
+        </div>
+    </form>
+    <h1>@ViewData["Message"]</h1>
+    <div>
+        <a asp-action="Index">Back to list</a>
+    </div>
+</div>
